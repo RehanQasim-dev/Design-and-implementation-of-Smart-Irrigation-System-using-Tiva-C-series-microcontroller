@@ -1,0 +1,2 @@
+# Design-and-implementation-of-Smart-Irrigation-System-using-Tiva-C-series-microcontroller
+I used analogue capacitive moisture sensor with ADC to read the moisture level. I took the value equal to or greater than 2050 as dry. There is electric pump connected with one of the GPIOs which turns the pump on when value is greater than 2050 by giving 0 signal as I am using PMOS to drive the NMOS which drives the motor.
